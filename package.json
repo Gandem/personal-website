@@ -6,7 +6,8 @@
   "author": "gandem",
   "license": "MIT",
   "scripts": {
-    "start": "live-server"
+    "start": "live-server",
+    "build": "node build.js"
   },
   "devDependencies": {
     "clean-css": "^4.0.8",
