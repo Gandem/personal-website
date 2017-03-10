@@ -1,0 +1,16 @@
+{
+  "name": "myblog",
+  "version": "0.0.1",
+  "description": "blog",
+  "main": "index.js",
+  "author": "gandem",
+  "license": "MIT",
+  "scripts": {
+    "start": "live-server"
+  },
+  "devDependencies": {
+    "clean-css": "^4.0.8",
+    "html-minifier": "^3.4.0",
+    "live-server": "^1.2.0"
+  }
+}
