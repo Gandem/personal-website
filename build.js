@@ -53,7 +53,6 @@ fs.mkdir(buildDir, () => {
                 useShortDoctype: true,
                 removeRedundantAttributes: true,
                 removeOptionalTags: true,
-                removeEmptyElements: true,
                 removeEmptyAttributes: true,
                 removeAttributeQuotes: true,
                 removeStyleLinkTypeAttributes: true,
