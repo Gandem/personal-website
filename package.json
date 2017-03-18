@@ -10,8 +10,8 @@
     "build": "node build.js"
   },
   "devDependencies": {
-    "clean-css": "^4.0.8",
-    "html-minifier": "^3.4.0",
+    "clean-css": "^4.0.9",
+    "html-minifier": "^3.4.1",
     "live-server": "^1.2.0"
   }
 }
