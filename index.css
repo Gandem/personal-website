@@ -46,6 +46,7 @@ h1, h2, h3, h4, p {
     font-weight: 400;
     font-size: 25px;
     color: #969B9F;
+    margin-bottom: 5px;
 }
 
 .student {
@@ -65,7 +66,7 @@ h1, h2, h3, h4, p {
     flex: 1 1 auto;
     font-family: "Open Sans", serif;
     text-align: center;
-    margin-bottom: 10px;
+    margin-bottom: 5px;
     color: #639AC3;
     font-size: 25px;
 }
@@ -79,6 +80,7 @@ h1, h2, h3, h4, p {
 }
 
 .links {
+    flex-wrap: wrap;
     flex: 1 0 auto;
     align-items: baseline;
     font-family: "Open Sans", serif;
@@ -86,10 +88,11 @@ h1, h2, h3, h4, p {
     display: flex;
     justify-content: space-around;
     width: 60%;
-    /* margin-bottom: 10px; */
+    margin-bottom: 10px;
 }
 
 .links a {
+    margin: 5px 5px;
     color: #656363;
     text-decoration: none;
     display: block;
@@ -141,20 +144,11 @@ h1, h2, h3, h4, p {
     font-size: 10px;
 }
 
-.blog {
+.gris {
     color: #b7b7b7 !important;
     text-align: center;
     line-height: 9px;
     pointer-events: none;
-}
-
-.links-wrapper {
-    justify-content: center;
-    flex: 1 0 auto;
-    display: flex;
-    width: 60%;
-    margin-bottom: 15px;
-    align-items: center;
 }
 
 .personal-info {
@@ -174,7 +168,7 @@ h1, h2, h3, h4, p {
     width: 100%;
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 578px) {
     .container {
         flex-direction: row;
     }
@@ -245,9 +239,10 @@ h1, h2, h3, h4, p {
         margin-bottom: 10px;
     }
 
-    .links-wrapper {
-        width: 70%;
+    .links { 
+       width: 70%;
     }
+
 }
 
 @media screen and (min-width: 1024px) {
@@ -275,10 +270,6 @@ h1, h2, h3, h4, p {
     .contact {
         width: 60%;
         margin-bottom: 15px;
-    }
-
-    .links-wrapper {
-        width: 50%;
     }
 
 }
